@@ -1,50 +1,76 @@
-# Welcome to your Expo app 👋
+# 🚖 QuickCab  
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![Expo](https://img.shields.io/badge/Expo-000?logo=expo&logoColor=white)
+![React Native](https://img.shields.io/badge/React%20Native-20232A?logo=react&logoColor=61DAFB)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?logo=stripe&logoColor=white)
+![Clerk](https://img.shields.io/badge/Clerk-2C3E50?logo=clerk&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## Get started
+A modern full-stack ride-hailing application built with **Expo, React Native, Clerk, PostgreSQL, Stripe, and Google Maps**.  
+QuickCab provides a seamless booking experience, real-time location tracking, and secure payments—making it a powerful Uber-style clone to showcase your skills.  
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 📋 Table of Contents  
+- [🤖 Introduction](#-introduction)  
+- [⚙️ Tech Stack](#️-tech-stack)  
+- [🔋 Features](#-features)  
+- [🤸 Quick Start](#-quick-start)  
+- [🕸️ Code Snippets](#️-code-snippets)  
+- [🔗 Links](#-links)  
+- [📦 Assets](#-assets)  
+- [🚀 More](#-more)  
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🤖 Introduction  
+QuickCab is a full-stack mobile app that allows users to:  
+- Register & authenticate with **Clerk**  
+- Browse available rides on a **live Google Map**  
+- Book trips using **real-time location services**  
+- Pay securely via **Stripe integration**  
+- Store rides & user data in a **serverless PostgreSQL database**  
 
-In the output, you'll find options to open the app in a
+This project demonstrates **end-to-end mobile development** using Expo and modern tools.  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## ⚙️ Tech Stack  
+- **React Native + Expo** – Cross-platform app framework  
+- **Clerk** – Authentication & user management  
+- **PostgreSQL (NeonDB)** – Serverless database  
+- **Google Maps & Places API** – Maps, geolocation & autocomplete  
+- **Stripe** – Payments  
+- **TailwindCSS (NativeWind)** – Styling  
+- **TypeScript** – Strongly typed development  
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🔋 Features  
+- 🚀 **Onboarding Flow** – Smooth sign-up/login experience  
+- 🔑 **Clerk Authentication** – Email/password + Google OAuth  
+- 🔒 **Role-based Authorization** – Secure access control  
+- 🗺️ **Live Location with Google Maps** – Track rides in real time  
+- 🔍 **Places Autocomplete** – Search pickup/drop locations  
+- 🚗 **Book Rides from Map** – Choose cars near you  
+- 📄 **Ride Confirmation** – See price, ETA & driver details  
+- 💳 **Payments via Stripe** – Multiple methods supported  
+- 📜 **Ride History** – View all past bookings  
+- 👤 **Profile Management** – Edit user details  
+- 📱 **Cross-platform UI** – Responsive on iOS & Android  
 
+---
+
+## 🤸 Quick Start  
+
+### Prerequisites  
+Make sure you have installed:  
+- [Git](https://git-scm.com/)  
+- [Node.js](https://nodejs.org/)  
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)  
+
+### Clone the Repository  
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/your-username/quickcab.git
+cd quickcab
