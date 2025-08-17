@@ -72,5 +72,34 @@ Make sure you have installed:
 
 ### Clone the Repository  
 ```bash
-git clone https://github.com/your-username/quickcab.git
-cd quickcab
+git clone https://github.com/txm19/QuickCab.git
+cd QuickCab
+```
+
+**Install Dependencies**
+```bash
+npm install
+```
+
+**Set Up Environment Variables**
+Create a .env file in the root with:
+
+EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=your-clerk-publishable-key
+DATABASE_URL=your-database-url
+EXPO_PUBLIC_SERVER_URL=http://localhost:3000/
+EXPO_PUBLIC_GEOAPIFY_API_KEY=your-geoapify-key
+EXPO_PUBLIC_GOOGLE_API_KEY=your-google-api-key
+EXPO_PUBLIC_STRIPE_PUBLISHABLE_KEY=your-stripe-publishable-key
+STRIPE_SECRET_KEY=your-stripe-secret-key
+
+Replace placeholders with your credentials.
+
+**Run the Project**
+```bash
+npx expo start
+```
+Open on your device with the Expo Go app or run in an iOS/Android simulator.
+
+
+
+
