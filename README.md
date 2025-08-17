@@ -33,13 +33,16 @@ This project demonstrates **end-to-end mobile development** using Expo and moder
 ---
 
 ## ⚙️ Tech Stack  
-- **React Native + Expo** – Cross-platform app framework  
-- **Clerk** – Authentication & user management  
-- **PostgreSQL (NeonDB)** – Serverless database  
-- **Google Maps & Places API** – Maps, geolocation & autocomplete  
-- **Stripe** – Payments  
-- **TailwindCSS (NativeWind)** – Styling  
-- **TypeScript** – Strongly typed development  
+
+![React Native](https://img.shields.io/badge/React%20Native-20232A?logo=react&logoColor=61DAFB)  
+![Expo](https://img.shields.io/badge/Expo-000000?logo=expo&logoColor=white)  
+![Clerk](https://img.shields.io/badge/Clerk-2C3E50?logo=clerk&logoColor=white)  
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white)  
+![Google Maps](https://img.shields.io/badge/Google%20Maps-4285F4?logo=googlemaps&logoColor=white)  
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?logo=stripe&logoColor=white)  
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white)  
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)   
 
 ---
 
