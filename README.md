@@ -17,10 +17,6 @@ QuickCab provides a seamless booking experience, real-time location tracking, an
 - [⚙️ Tech Stack](#️-tech-stack)  
 - [🔋 Features](#-features)  
 - [🤸 Quick Start](#-quick-start)  
-- [🕸️ Code Snippets](#️-code-snippets)  
-- [🔗 Links](#-links)  
-- [📦 Assets](#-assets)  
-- [🚀 More](#-more)  
 
 ---
 
@@ -96,7 +92,7 @@ Replace placeholders with your credentials.
 
 **Run the Project**
 ```bash
-npx expo start
+npx expo start --clear --tunnel
 ```
 Open on your device with the Expo Go app or run in an iOS/Android simulator.
 
