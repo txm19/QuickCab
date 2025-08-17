@@ -5,7 +5,7 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?logo=stripe&logoColor=white)
 ![Clerk](https://img.shields.io/badge/Clerk-2C3E50?logo=clerk&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
+
 
 A modern full-stack ride-hailing application built with **Expo, React Native, Clerk, PostgreSQL, Stripe, and Google Maps**.  
 QuickCab provides a seamless booking experience, real-time location tracking, and secure payments—making it a powerful Uber-style clone to showcase your skills.  
